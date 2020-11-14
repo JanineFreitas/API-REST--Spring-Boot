@@ -17,6 +17,8 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
@@ -53,6 +55,19 @@
 			<scope>compile</scope>
 		</dependency>
 		<!-- SWAGGER: Fim -->
+		
+		<!-- SECURITY JWT: Inicio -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		
+		<!-- SECURITY JWT: Fim -->
 		
 	</dependencies>
 
