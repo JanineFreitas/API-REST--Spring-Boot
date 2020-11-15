@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.demojanine.service;
 
 import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.Test;
